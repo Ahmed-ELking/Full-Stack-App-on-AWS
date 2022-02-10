@@ -6,7 +6,7 @@ The udagram application is a fairly simple application that includes all the maj
 
 - [URL](http://udagram-455974392119.s3-website-us-east-1.amazonaws.com)
 
-      ![Udagram page](Doc/S3-2.png)
+   ![Udagram page](Doc/S3-2.png)
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
@@ -130,5 +130,6 @@ Provision the necessary AWS services needed for running the application:
 
 
    ![circleci pipeline success](Doc/circleci-1.png)
+   
    ![circleci pipeline success](Doc/circleci-2.png)
    ![circleci pipeline success](Doc/circleci-3.png)
