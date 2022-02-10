@@ -5,6 +5,8 @@ The udagram application is a fairly simple application that includes all the maj
 ## Udagram URL 
 
 - [URL](http://udagram-455974392119.s3-website-us-east-1.amazonaws.com)
+
+      ![Udagram page](Doc/S3-2.png)
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
@@ -77,64 +79,56 @@ The e2e tests are using Protractor and Jasmine.
 
 ### Infrastructure diagram
 
- ![Udagram Architecture](Doc/Udagram-Architecture.png)
+   ![Udagram Architecture](Doc/Udagram-Architecture.png)
 
 ## Udagram Architecture
 
 Provision the necessary AWS services needed for running the application:
 
 
-![AWS CONSOLE](Doc/AWS-CONSOLE.png)
+   ![AWS CONSOLE](Doc/AWS-CONSOLE.png)
 
 1. In AWS, provision a publicly available RDS database running Postgres:
 
 
-![Relational Database Service](Doc/RDS.png)
+   ![Relational Database Service](Doc/RDS.png)
 
 
 2. In AWS, provision a s3 bucket for hosting the uploaded files:
 
 
-![Simple Storage Services](Doc/S3-1.png)
+   ![Simple Storage Services](Doc/S3-1.png)
 
 
 3. In AWS, provision a web server Elastic Beanstalk (EB):
 
 
-![Elastic Beanstalk](Doc/EB1.png)
-![Elastic Beanstalk](Doc/EB2.png)
-
-
-4. Udagram page:
-
-
-![Simple Storage Services](Doc/S3-2.png)
+   ![Elastic Beanstalk](Doc/EB1.png)
+   ![Elastic Beanstalk](Doc/EB2.png)
 
 ## Pipeline process
 
-1. Add a feature or fix a bug
-2. Gets pushed/merged to `main` branch
-3. A circleci pipline is triggered
-4. Circleci creates an environments with orbs:
+1. Circleci creates an environments with orbs:
    1. `node: circleci/node@5.0.0`
    2. `aws-cli: circleci/aws-cli@2.0.0`
    3. `eb: circleci/aws-elastic-beanstalk@2.0.1`
-5. Then it installs node.js in the environmet
-6. Setup aws-cli with circleci environment variables, like in the following image:
+
+2. Setup aws-cli with circleci environment variables:
 
 
    ![circleci environment variables](Doc/circleci-env1.png)
    ![circleci environment variables](Doc/circleci-env2.png)
 
 
-7. Then it starts the workflow:
-   1. Install frontend dependencies
-   2. Install backend dependencies
-   3. Build the frontend
-   4. Build the backend
-   5. Deploy the frontend
-   6. Deploy the backend
+3. Installing NPM packages
+4. Install frontend dependencies
+5. Install backend dependencies
+6. Build the frontend
+7. Build the backend
+8. Deploy the frontend
+9. Deploy the backend
 
 
-      ![circleci pipeline success](Doc/circleci-1.png)
-      ![circleci pipeline success](Doc/circleci-2.png)
+   ![circleci pipeline success](Doc/circleci-1.png)
+   ![circleci pipeline success](Doc/circleci-2.png)
+   ![circleci pipeline success](Doc/circleci-3.png)
