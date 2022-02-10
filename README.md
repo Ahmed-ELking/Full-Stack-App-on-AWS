@@ -4,7 +4,7 @@ The udagram application is a fairly simple application that includes all the maj
 
 ## Udagram URL 
 
-- [URL](http://455974392119-udagram.s3-website-us-east-1.amazonaws.com/)
+- [URL](http://udagram-455974392119.s3-website-us-east-1.amazonaws.com)
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
