@@ -77,7 +77,7 @@ The e2e tests are using Protractor and Jasmine.
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
-### Infrastructure diagram
+## Infrastructure diagram
 
    ![Udagram Architecture](Doc/Udagram-Architecture.png)
 
@@ -130,6 +130,6 @@ Provision the necessary AWS services needed for running the application:
 
 
    ![circleci pipeline success](Doc/circleci-1.png)
-   
+
    ![circleci pipeline success](Doc/circleci-2.png)
    ![circleci pipeline success](Doc/circleci-3.png)
