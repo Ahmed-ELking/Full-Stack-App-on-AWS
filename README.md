@@ -83,7 +83,7 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Udagram Architecture
 
-Provision the necessary AWS services needed for running the application:
+# Provision the necessary AWS services needed for running the application:
 
 
    ![AWS CONSOLE](Doc/AWS-CONSOLE.png)
