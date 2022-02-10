@@ -7,6 +7,6 @@ export const sequelize = new Sequelize({
   database: config.database,
   host: config.host,
   port: config.dbPort,
-  dialect: config.dialect,
+  dialect: "postgres",
   storage: ":memory:",
 });
