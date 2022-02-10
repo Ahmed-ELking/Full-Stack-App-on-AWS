@@ -12,8 +12,6 @@ jobs:
       - checkout
       - aws-cli/setup
       - eb/setup
-      - node/install-packages:
-          pkg-manager: npm
       - run:
           name: Front-End Install
           command: |
@@ -23,13 +21,22 @@ jobs:
           command: |
             npm run backend:install
       - run:
+          name: Back-End Build
+          command: |
+            npm run backend:build
+      - run:
           name: Front-End Build
           command: |
             npm run frontend:build
       - run:
-          name: Back-End Build
+          name: Install pip
           command: |
-            npm run backend:build
+            sudo apt update
+            sudo apt install -y python3-pip python-dev
+      - run:
+          name: Install AWS dependencies
+          command: |
+            sudo pip install awsebcli
       - run:
           name: Back-End Deploy
           command: |
