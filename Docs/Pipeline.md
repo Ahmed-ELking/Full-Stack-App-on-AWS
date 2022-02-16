@@ -1,6 +1,6 @@
 # Pipeline diagram
 
-![Pipeline diagram](ScreenShots/pipeline-diagram.png)
+![Pipeline diagram](./ScreenShots/pipeline-diagram.png)
 
 
 ## Pipeline process
@@ -18,8 +18,8 @@
 2. Setup aws-cli with circleci environment variables:
 
 
-   ![circleci environment variables](ScreenShots/circleci-env1.png)
-   ![circleci environment variables](ScreenShots/circleci-env2.png)
+   ![circleci environment variables](./ScreenShots/circleci-env1.png)
+   ![circleci environment variables](./ScreenShots/circleci-env2.png)
 
 
 3. Installing NPM packages
@@ -31,6 +31,6 @@
 9. Deploy the backend
 
 
-   ![circleci pipeline success](ScreenShots/circleci-1.png)
-   ![circleci pipeline success](ScreenShots/circleci-2.png)
-   ![circleci pipeline success](ScreenShots/circleci-3.png)
+   ![circleci pipeline success](./ScreenShots/circleci-1.png)
+   ![circleci pipeline success](./ScreenShots/circleci-2.png)
+   ![circleci pipeline success](./ScreenShots/circleci-3.png)
