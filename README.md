@@ -74,13 +74,14 @@ npm run start
 ```
 
 4. You can concise all the above steps by running this two commands from the root directory:
+
 to install the node_modules:
 
 ```
 npm install
 
 ``` 
-and to install all decencies and build udagram-frontend and udagram-api:
+and to install all dependencies and build udagram-frontend and udagram-api:
 
 ```
 npm run build:all
