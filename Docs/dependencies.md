@@ -33,5 +33,7 @@
 
 - sequelize 5.21.4
 
+- npm-run-all
+
 ```
 
