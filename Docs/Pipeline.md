@@ -3,11 +3,7 @@
 ![Pipeline diagram](../ScreenShots/pipeline-diagram.png)
 
 
-## Pipeline process
-
-[![Ahmed-ELking](https://circleci.com/gh/Ahmed-ELking/Full-Stack-App-on-AWS.svg?style=shield)](https://app.circleci.com/pipelines/github/Ahmed-ELking/Full-Stack-App-on-AWS/15/workflows/c9e9a138-bd8d-4e3e-af5e-983dbe0b58bc)
-
-
+## Pipeline process [![Ahmed-ELking](https://circleci.com/gh/Ahmed-ELking/Full-Stack-App-on-AWS.svg?style=shield)](https://app.circleci.com/pipelines/github/Ahmed-ELking/Full-Stack-App-on-AWS/15/workflows/c9e9a138-bd8d-4e3e-af5e-983dbe0b58bc)
 
 
 1. Circleci creates an environments with orbs:
