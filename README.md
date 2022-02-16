@@ -17,22 +17,56 @@ The udagram application is a fairly simple application that includes all the maj
 ### Installation
 
 1. From the root of the repo, navigate udagram-api folder: 
-```cd udagram-api``` 
+
+```
+cd udagram-api
+
+``` 
 to install the node_modules: 
-```npm install``` 
+
+```
+npm install
+
+``` 
 After installation is done start the api in dev mode with: 
-```npm run dev```
+
+```
+npm run dev
+
+```
 1. Without closing the terminal in step 1, navigate to the udagram-frontend: 
-```cd udagram-frontend``` 
+
+```
+cd udagram-frontend
+
+``` 
 to install the node_modules: 
-```npm install``` 
-After installation is done start the api in dev mode with 
-```npm run start```
+
+```
+npm install
+
+``` 
+After installation is done start the api in dev mode with:
+
+```
+npm run start
+
+```
+
 1. You can concise all the above steps by running this two commands from the root directory:
-to install the node_modules: 
-```npm install``` 
+to install the node_modules:
+
+```
+npm install
+
+``` 
 and to install all decencies and build udagram-frontend and udagram-api:
-```npm run build:all```
+
+```
+npm run build:all
+
+```
+
 1. Create .env file:
 
 ```
