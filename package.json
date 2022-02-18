@@ -7,7 +7,12 @@
         "frontend:build": "cd udagram-frontend && npm run build",
         "backend:build": "cd udagram-api && npm run build",
         "frontend:deploy": "cd udagram-frontend && npm run deploy",
-        "backend:deploy": "cd udagram-api && npm run deploy"
+        "backend:deploy": "cd udagram-api && npm run deploy",
+        "build:all": "npm-run-all frontend:install backend:install frontend:build backend:build"
     },
-    "devDependencies": {}
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ahmed-ELking/Full-Stack-App-on-AWS.git"
+    },
+    "author": "Ahmed Saad <elking.x80@gmail.com>"
 }
